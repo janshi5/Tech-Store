@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Tech Store</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tech Store: Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="">shop</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </nav>
+            <input type="search" placeholder="search...">
+        </header>
+
+        <aside>
+            <h2>Shop by:</h2>
+            <section>
+            <h3>Category</h3>
+            <hr>
+            <ul>
+                <li>All items</li>
+                <li>Cameras</li>
+                <li>Laptops</li>
+                <li>Phones</li>
+                <li>Accessories</li>
+                <li>Other</li>
+            </ul>
+            </section>
+
+            <section>
+            <h3>Price <span>($)</span></h3>
+            <hr>
+            <ul>
+                <li>1 - 9</li>
+                <li>10 - 29</li>
+                <li>30 - 59</li>
+                <li>60 - 99</li>
+                <li>100 +</li>
+            </ul>
+            </section>
+        </aside>
+
+        <main>
+            <h2>Contact Us!:</h2>
+            <form action="submit" method="POST">
+                <div class="inline">
+                    <label for="name">Name:</label><input id="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="inline">
+                    <label for="email">Email:</label><input id="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="inline">
+                    <label for="message">Message:</label><textarea id="message" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="inline">
+                    <label for="subject">Subject:</label>
+                    <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+                    <datalist id="subjects">
+                        <option value="returns">
+                        <option value="faulty_item">
+                        <option value="delivery">
+                        <option value="order_tracking">
+                        <option value="advice">
+                        <option value="other">
+                    </datalist>
+                </div>
+
+                <div>
+                    <p id="blacktext">Subscribe to future offers by:</p>
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+                    <label for="email">Email</label>
+                    <input type="checkbox" id="email" name="subscribe" value="email">
+
+                    <label for="post">Post</label>
+                    <input type="checkbox" id="post" name="subscribe" value="post">
+                </div>
+                <div>
+                    <p id="blacktext">How would you like us ro respond?</p>
+                    <label for="phoneResponse">Phone</label>
+                    <input type="radio" id="phoneResponse" name="response" value="phone">
+                    <label for="emailResponse">Email</label>
+                    <input type="radio" id="emailResponse" name="response" value="email">
+                </div>
+
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+
+            </form>
+
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJq0HUUq6ipBIRWM6qGqALmok&key=AIzaSyDbpFxXBUDaeRLhlBc9FuktLJ1L-9AvUAM" allowfullscreen></iframe>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="">shop</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
